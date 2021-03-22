@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="25.688643">
+    <testcase classname="Create an account" name="Creating an account" time="12.705757">
+        <system-out>
+            <![CDATA[Given Navigate to create an account screen..................................passed
+Then Enter firstnam as "Test01".............................................passed
+Then Enter Lastname as "pass01".............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Create an account" name="Creating an account 2" time="12.982886">
+        <system-out>
+            <![CDATA[Given Navigate to create an account screen..................................passed
+Then Enter firstnam as "Test02".............................................passed
+Then Enter Lastname as "Pass02".............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

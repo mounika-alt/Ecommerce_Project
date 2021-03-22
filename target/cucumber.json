@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Creating an account",
+        "description": "",
+        "id": "create-an-account;creating-an-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12350297700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to create an account screen",
+            "match": {
+              "location": "sd03_accCREATION.navigate_to_create_an_account_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212393400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter firstnam as \"Test01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test01",
+                  "offset": 19
+                }
+              ],
+              "location": "sd03_accCREATION.enter_firstnam_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143065800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Lastname as \"pass01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pass01",
+                  "offset": 19
+                }
+              ],
+              "location": "sd03_accCREATION.enter_Lastname_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestRun02"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Creating an account",
+        "description": "",
+        "id": "create-an-account;creating-an-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12625946900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to create an account screen",
+            "match": {
+              "location": "sd03_accCREATION.navigate_to_create_an_account_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197702600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter firstnam as \"Test02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test02",
+                  "offset": 19
+                }
+              ],
+              "location": "sd03_accCREATION.enter_firstnam_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159236099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Lastname as \"Pass02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pass02",
+                  "offset": 19
+                }
+              ],
+              "location": "sd03_accCREATION.enter_Lastname_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestRun02"
+          }
+        ]
+      }
+    ],
+    "name": "Create an account",
+    "description": "",
+    "id": "create-an-account",
+    "keyword": "Feature",
+    "uri": "FF03_createanaccount.feature"
+  }
+]

@@ -1,0 +1,21 @@
+Feature: Create an account
+
+  @TestRun02
+  Scenario Outline: Creating an account        [90m# FF03_createanaccount.feature:3[0m
+    [36mGiven [0m[36mNavigate to create an account screen[0m
+    [36mThen [0m[36mEnter firstnam as "<firstname>"[0m
+    [36mThen [0m[36mEnter Lastname as "<Password>"[0m
+
+    Examples: 
+
+  @TestRun02
+  Scenario Outline: Creating an account        [90m# FF03_createanaccount.feature:10[0m
+    [32mGiven [0m[32mNavigate to create an account screen[0m [90m# sd03_accCREATION.navigate_to_create_an_account_screen()[0m
+    [32mThen [0m[32mEnter firstnam as "[0m[32m[1mTest01[0m[32m"[0m            [90m# sd03_accCREATION.enter_firstnam_as(String)[0m
+    [32mThen [0m[32mEnter Lastname as "[0m[32m[1mpass01[0m[32m"[0m            [90m# sd03_accCREATION.enter_Lastname_as(String)[0m
+
+  @TestRun02
+  Scenario Outline: Creating an account        [90m# FF03_createanaccount.feature:11[0m
+    [32mGiven [0m[32mNavigate to create an account screen[0m [90m# sd03_accCREATION.navigate_to_create_an_account_screen()[0m
+    [32mThen [0m[32mEnter firstnam as "[0m[32m[1mTest02[0m[32m"[0m            [90m# sd03_accCREATION.enter_firstnam_as(String)[0m
+    [32mThen [0m[32mEnter Lastname as "[0m[32m[1mPass02[0m[32m"[0m            [90m# sd03_accCREATION.enter_Lastname_as(String)[0m
