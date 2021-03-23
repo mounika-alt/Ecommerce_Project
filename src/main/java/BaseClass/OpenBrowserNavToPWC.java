@@ -22,6 +22,7 @@ public class OpenBrowserNavToPWC {
 	public static void NavPWC(String url) throws IOException {
 		
 	    WebDriverManager.chromedriver().setup();
+	    //base class
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--ignore-ssl-errors=yes");
         options.addArguments("--start-maximized");
