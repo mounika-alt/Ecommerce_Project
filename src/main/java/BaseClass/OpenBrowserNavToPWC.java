@@ -20,7 +20,7 @@ public class OpenBrowserNavToPWC {
 	public static WebDriver driver;
 
 	public static void NavPWC(String url) throws IOException {
-		
+		//base class
 	    WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--ignore-ssl-errors=yes");
